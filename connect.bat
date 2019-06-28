@@ -1,2 +1,3 @@
-btcom -b 5C:EB:68:72:BC:DA -c -s110b
-btcom -b 5C:EB:68:72:BC:DA -c -s111e
+set /p mac=<mac.txt
+btcom -b %mac% -c -s110b
+btcom -b %mac% -c -s111e
