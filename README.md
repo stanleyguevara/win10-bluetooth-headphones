@@ -11,7 +11,7 @@ Now you can double-click `connect.vbs` or `disconnect.vbs` to connect/disconnect
 
 # But I don't want to click...
 
-Well, you  can bind the script to some keyboard button or use [Autohotkey](https://www.autohotkey.com/) to do some fancy shortcut.
+Well, you  can bind the script to some media keyboard button or use [Autohotkey](https://www.autohotkey.com/) to do some fancy shortcut.
 
 # So how does it work?
 
