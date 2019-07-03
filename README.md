@@ -1,4 +1,4 @@
-# One button connect/disconnect BT headphones on Windows 10
+# One button connect/disconnect Bluetooth headphones on Windows 10!
 
 1. Clone or download this repo
 2. Install [BluetoothCLTools](http://bluetoothinstaller.com/bluetooth-command-line-tools/) (say yes when asked to add tools dir to path)
