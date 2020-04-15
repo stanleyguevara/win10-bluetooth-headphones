@@ -1,7 +1,7 @@
 # One button connect/disconnect Bluetooth headphones on Windows 10!
 
 1. Clone or download this repo
-2. Install [BluetoothCLTools](http://bluetoothinstaller.com/bluetooth-command-line-tools/) (say yes when asked to add tools dir to path)
+2. Install [BluetoothCLTools](http://bluetoothinstaller.com/bluetooth-command-line-tools/) (say yes when asked to add tools dir to path) [Direct download](http://bluetoothinstaller.com/bluetooth-command-line-tools/BluetoothCLTools-1.2.0.56.exe)
 3. Run `btdiscovery` in command line to get your headphones MAC address
 4. Paste the MAC address into first line of mac.txt file and save
 
