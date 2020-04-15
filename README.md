@@ -13,6 +13,8 @@ Now you can double-click `connect.vbs` or `disconnect.vbs` to connect/disconnect
 
 Well, you  can bind the script to some media keyboard button or use [Autohotkey](https://www.autohotkey.com/) to do some fancy shortcut.
 
+The simplest option (that I'm using) is binding the `toggle.vbs` script to some media key using [this method](https://ashish.vashisht.net/2008/01/configuring-keyboard-multimedia-keys.html)
+
 # So how does it work?
 
 Win10 automatically disconnects BT device after all services the device offers are disabled.
