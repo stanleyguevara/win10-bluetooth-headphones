@@ -1,4 +1,7 @@
-set /p mac=<%~dp0mac.txt
-for /f %%i in ('btdiscovery -i 1 -b %mac% -d %%c%%') do set state=%%i
-IF "%state%"=="Yes" exit 1
-IF "%state%"=="No" exit 2
+IF "%TOGGLE_BLUETOOTH_HEADPHONES_BUTTON_STATE%"=="1" (
+    SETX TOGGLE_BLUETOOTH_HEADPHONES_BUTTON_STATE "2"
+    exit 1
+) else (
+    SETX TOGGLE_BLUETOOTH_HEADPHONES_BUTTON_STATE "1"
+    exit 2
+)
