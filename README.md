@@ -28,8 +28,9 @@ Same same on connect.
 Check if your headphones offer more BT services than:
 - Hands-Free Profile (111E)
 - A2DP AudioSink (110B)
+- A/V_RemoteControl (110E) (media control keys)
 
-If so, add them to `connect.bat` and `disconnect.bat` files. 
+If so, add them to `connect.bat` and `disconnect.bat` files (and remove any that your headphones don't offer).
 
 The list of services can be found [here](https://www.bluetooth.com/specifications/assigned-numbers/service-discovery/).
 
